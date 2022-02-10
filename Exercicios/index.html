@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-    <nav>
-        <ul>
+    <nav class="nav">
+        <ul id="menu">
             <li>
                 <a href="index.html"> Home </a>
             </li>
@@ -19,34 +20,41 @@
         </ul>
     </nav>
 
-    <main>
+    <main class="center">
         <header>
-            <h1>Esse é um cabeçalho</h1>
-        </header>
-        <section>
             <h1>About Stephanie</h1>
-
+        </header>
+        <section class="container">
+            <div class="text">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse veritatis architecto dolores, 
                     inventore eligendi libero aspernatur consequatur at harum facilis. Odio dolore voluptates ratione 
-                    repellendus? Officiis harum esse nesciunt ex?
+                    repellendus? Officiis harum esse nesciunt ex? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque expedita commodi quibusdam est, porro eaque earum tempora quis iusto ipsa harum voluptatibus modi facilis eveniet sequi soluta hic? Doloribus, nulla?
                 </p>
                 <p> 
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse veritatis architecto dolores, 
                     inventore eligendi libero aspernatur consequatur at harum facilis. Odio dolore voluptates ratione 
-                    repellendus? Officiis harum esse nesciunt ex?
+                    repellendus? Officiis harum esse nesciunt ex?Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore laborum vel cupiditate neque quam provident velit modi recusandae, odit natus ratione ducimus eum impedit soluta aliquam, fuga enim itaque reprehenderit?
                 </p>
-            <img src="src/gif.gif" width="200" height="200" alt="Gif do avatar virtual de Stephanie"/>
+            </div>
+            <img class="gif" src="assets/img/gif.gif" width="400" height="400" alt="Gif do avatar virtual de Stephanie"/>
         </section>
         <br>    
         <br>
-        <div>
-            <h2>Sessão Imagem e Vídeo</h2>
+        <h2>Minha música favorita</h2>
+
+        <div class="container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/PoyejaR1BO8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </main>
-    <footer>
-        <!--Rodapé-->
+    <footer class="footer">
+        <hr>
+            <div class="container">
+                <a href="https://github.com/scavalari" target = "_blank"><img class="padding" src="assets/img/github.png" width="30px" height="30px"></a>
+                <a href="https://www.linkedin.com/ferreirasc09/" target = "_blank"><img class="padding" src="assets/img/logotipo-do-linkedin-square.png" width="30px" height="30px"></a>
+                <a href="https://whatsa.me/5511985357889" target = "_blank"><img class="padding" src="assets/img/whatsapp.png" width="30px" height="30px"> </a>
+            </div>
+        <p class="center">Todos os direitos reservados: Stephanie Ferreira &COPY;</p>
     </footer>   
 </body>
 </html>

@@ -1,0 +1,49 @@
+/*
+Estilos do Index.html
+*/
+body{
+    background-color: bisque;
+    margin: 0%;
+}
+.center{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    text-justify:auto
+}
+.nav{
+    background-color: brown;
+    margin: auto;
+}
+#menu li{
+    color: #000000;  
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+#menu li a:hover{
+    color:black;
+}
+.text{
+    padding: 30px;
+    text-align: justify;
+}
+.gif{
+    border-radius: 50%;
+}
+.padding{
+    padding: 10px;
+}
+.footer{
+    background-color: brown;
+}
+
+/*
+Estilos do Contato.html
+*/
